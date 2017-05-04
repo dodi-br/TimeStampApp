@@ -20,7 +20,7 @@
       <ion-col>
         <ion-list style="margin-top: 10px">
           <ion-item>
-            <ion-input type="text" placeholder="E-mail" item-center></ion-input>
+            <ion-input type="email" placeholder="E-mail" item-center [(ngModel)]="email"></ion-input>
           </ion-item>
         </ion-list>
       </ion-col>
@@ -28,7 +28,7 @@
 
     <ion-row>
       <ion-col text-center>
-        <button ion-button color="danger">Submit</button>
+        <button ion-button color="danger" (click)="register()">Submit</button>
       </ion-col>
     </ion-row>
 

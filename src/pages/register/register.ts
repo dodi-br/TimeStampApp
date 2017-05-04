@@ -13,12 +13,14 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   templateUrl: 'register.html',
 })
 export class Register {
-
+  private email:string = "";
   constructor(public navCtrl: NavController, public navParams: NavParams) {
+    
   }
 
-  ionViewDidLoad() {
-    console.log('ionViewDidLoad Register');
+  register(){
+    console.log(this.email);
+    this.navCtrl.pop();
   }
 
 }

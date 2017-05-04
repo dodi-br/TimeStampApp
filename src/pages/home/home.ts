@@ -22,7 +22,7 @@ export class HomePage {
     let deviceID = "";
     if(email == "" && deviceID == ""){
       // this.navCtrl.push(Login);
-      this.app.getRootNav().push(Login);
+      this.app.getRootNav().push(Register);
       // this.app._setRootNav(Login);
       // this.navCtrl.setRoot(Login);
     }
@@ -33,20 +33,20 @@ export class HomePage {
     this.menu.open(); 
   }
 
-  openPage_stampdetail() {
+  openPage_stampDetail() {
     this.navCtrl.push(StampDetail);
   }
   openPage_login() {
     this.navCtrl.push(Login);
   }
-openPage_regis(){
+  openPage_regis(){
   this.navCtrl.push(Register);
 }
-openPage_leave(){
+  openPage_leave(){
   this.app.getRootNav().push(Leave);
 
 }
-//   scan() {
-    
-//   }
+openPage_logout(){
+  this.navCtrl.pop();
+}
 }
