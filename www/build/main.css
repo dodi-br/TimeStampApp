@@ -27012,3 +27012,19 @@ page-leavelist .ion-md-calendar {
 page-register .grid {
   margin-top: 140px;
 }
+
+page-stamp-detail .fl {
+  font-size: 24px;
+}
+
+page-stamp-detail .mt-img {
+  margin-top: 74px;
+}
+
+page-stamp-detail .mtd {
+  margin-top: -20px;
+}
+
+page-stamp-detail .mt {
+  margin-top: 34px;
+}

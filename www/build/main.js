@@ -56045,19 +56045,17 @@ var Leavelist = (function () {
         this.navCtrl = navCtrl;
         this.navParams = navParams;
     }
-    Leavelist.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad Leavelist');
-    };
     return Leavelist;
 }());
 Leavelist = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* IonicPage */])(),
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_6" /* Component */])({
-        selector: 'page-leavelist',template:/*ion-inline-start:"/Users/cyber-mac-17/Desktop/DOOK/TimeStampApp/src/pages/leavelist/leavelist.html"*/'<!--\n  Generated template for the Leavelist page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>leavelist</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n<ion-list>\n  <ion-item>\n    <ion-icon name="calendar" item-left></ion-icon>\n     <b class="thaifont">List 1</b>\n    <p class="thaifont">ลาป่วยเฉยๆ ไม่มีไรมาก <i class="fa fa-floppy-o"></i></p>\n  </ion-item>\n</ion-list>\n</ion-content>\n'/*ion-inline-end:"/Users/cyber-mac-17/Desktop/DOOK/TimeStampApp/src/pages/leavelist/leavelist.html"*/,
+        selector: 'page-leavelist',template:/*ion-inline-start:"/Users/cyber-mac-17/Desktop/DOOK/TimeStampApp/src/pages/leavelist/leavelist.html"*/'<ion-header>\n\n  <ion-navbar>\n    <ion-title>Leave List</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n<ion-list>\n  <ion-item>\n    <ion-icon name="calendar" item-left></ion-icon>\n     <b class="thaifont">List 1</b>\n    <p class="thaifont">ลาป่วยเฉยๆ ไม่มีไรมาก <i class="fa fa-floppy-o"></i></p>\n  </ion-item>\n</ion-list>\n</ion-content>\n'/*ion-inline-end:"/Users/cyber-mac-17/Desktop/DOOK/TimeStampApp/src/pages/leavelist/leavelist.html"*/,
     }),
-    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */]])
+    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */]) === "function" && _b || Object])
 ], Leavelist);
 
+var _a, _b;
 //# sourceMappingURL=leavelist.js.map
 
 /***/ }),
@@ -56185,19 +56183,17 @@ var StampDetail = (function () {
         this.navCtrl = navCtrl;
         this.navParams = navParams;
     }
-    StampDetail.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad StampDetail');
-    };
     return StampDetail;
 }());
 StampDetail = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* IonicPage */])(),
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_6" /* Component */])({
-        selector: 'page-stamp-detail',template:/*ion-inline-start:"/Users/cyber-mac-17/Desktop/DOOK/TimeStampApp/src/pages/stamp-detail/stamp-detail.html"*/'<!--\n  Generated template for the StampDetail page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>StampDetail</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"/Users/cyber-mac-17/Desktop/DOOK/TimeStampApp/src/pages/stamp-detail/stamp-detail.html"*/,
+        selector: 'page-stamp-detail',template:/*ion-inline-start:"/Users/cyber-mac-17/Desktop/DOOK/TimeStampApp/src/pages/stamp-detail/stamp-detail.html"*/'<!--\n  Generated template for the StampDetail page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>Stamp Detail</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n  <ion-grid class="mt-img">\n  <ion-row>\n   <ion-col text-center>\n      <img src="https://image.flaticon.com/icons/svg/145/145862.svg" width="164px" height="164px"/>\n    </ion-col>\n  </ion-row>\n  <ion-row>\n   <ion-col text-center>\n      <span class="fl">Nuttakrittra P.</span>\n    </ion-col>\n  </ion-row>\n  <ion-list no-lines>\n  <ion-item>\n      <img item-left src="https://image.flaticon.com/icons/svg/139/139017.svg" width="34px" height="34px">\n    <h2>07:00 AM</h2>\n    <p>12 Jan 2017</p>\n  </ion-item>\n  <ion-item>\n      <img item-left src="https://image.flaticon.com/icons/svg/139/139016.svg" width="34px" height="34px">\n    <h2>07:00 AM</h2>\n    <p>12 Jan 2017</p>\n  </ion-item>\n</ion-list>\n\n\n</ion-grid>\n</ion-content>\n'/*ion-inline-end:"/Users/cyber-mac-17/Desktop/DOOK/TimeStampApp/src/pages/stamp-detail/stamp-detail.html"*/,
     }),
-    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */]])
+    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */]) === "function" && _b || Object])
 ], StampDetail);
 
+var _a, _b;
 //# sourceMappingURL=stamp-detail.js.map
 
 /***/ }),
@@ -56240,7 +56236,7 @@ var AboutPage = (function () {
 }());
 AboutPage = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_6" /* Component */])({
-        selector: 'page-about',template:/*ion-inline-start:"/Users/cyber-mac-17/Desktop/DOOK/TimeStampApp/src/pages/about/about.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>\n      About\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"/Users/cyber-mac-17/Desktop/DOOK/TimeStampApp/src/pages/about/about.html"*/
+        selector: 'page-about',template:/*ion-inline-start:"/Users/cyber-mac-17/Desktop/DOOK/TimeStampApp/src/pages/about/about.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>\n      History\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n\n</ion-content>\n'/*ion-inline-end:"/Users/cyber-mac-17/Desktop/DOOK/TimeStampApp/src/pages/about/about.html"*/
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */]])
 ], AboutPage);
@@ -56274,7 +56270,7 @@ var ContactPage = (function () {
 }());
 ContactPage = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_6" /* Component */])({
-        selector: 'page-contact',template:/*ion-inline-start:"/Users/cyber-mac-17/Desktop/DOOK/TimeStampApp/src/pages/contact/contact.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>\n      Contact\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n  <ion-list>\n    <ion-list-header>Follow us on Twitter</ion-list-header>\n    <ion-item>\n      <ion-icon name="ionic" item-left></ion-icon>\n      @ionicframework\n    </ion-item>\n  </ion-list>\n</ion-content>\n'/*ion-inline-end:"/Users/cyber-mac-17/Desktop/DOOK/TimeStampApp/src/pages/contact/contact.html"*/
+        selector: 'page-contact',template:/*ion-inline-start:"/Users/cyber-mac-17/Desktop/DOOK/TimeStampApp/src/pages/contact/contact.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>\n      Request\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n\n</ion-content>\n'/*ion-inline-end:"/Users/cyber-mac-17/Desktop/DOOK/TimeStampApp/src/pages/contact/contact.html"*/
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */]])
 ], ContactPage);
