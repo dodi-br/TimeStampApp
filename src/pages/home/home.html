@@ -1,0 +1,58 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Home</ion-title>
+    <ion-buttons start (click)="showMenu()">
+      <button ion-button icon-only color="royal">
+          <ion-icon name="menu"></ion-icon>
+        </button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-grid>
+    <ion-row text-center>
+      <ion-col ion-text color="danger" tsize>
+        Time
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col text-center>
+        <ion-note>Date</ion-note>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col text-center margin-top="40px">
+        <img (press)="openPage_stampdetail()" src="img/fingerprint.png" width="70%">
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
+
+
+
+
+<ion-menu [content]="content">
+  <ion-header>
+    <ion-toolbar>
+      <ion-title>Time Stamp</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content>
+    <ion-list>
+
+      <button ion-item (click)="openPage_login()">
+          Login
+        </button>
+      <button ion-item (click)="openPage_regis()">
+          Register
+        </button>
+      <button ion-item (click)="openPage_leave()">
+          Leave
+        </button>
+
+    </ion-list>
+  </ion-content>
+</ion-menu>
+
+<ion-nav id="nav" #content [root]="rootPage"></ion-nav>
