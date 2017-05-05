@@ -1,12 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { Profile } from '../profile/profile';
 
-/**
- * Generated class for the StampDetail page.
- *
- * See http://ionicframework.com/docs/components/#navigation for more info
- * on Ionic pages and navigation.
- */
 @IonicPage()
 @Component({
   selector: 'page-stamp-detail',
@@ -15,6 +10,11 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 export class StampDetail {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
+
+  }
+
+  openPageProfile(){
+    this.navCtrl.push(Profile);
   }
 
 }

@@ -2,9 +2,9 @@
   import { BrowserModule } from '@angular/platform-browser';
   import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
   import { MyApp } from './app.component';
+
   import { DatePickerModule } from 'datepicker-ionic2';
-  import { AboutPage } from '../pages/about/about';
-  import { ContactPage } from '../pages/contact/contact';
+
   import { HomePage } from '../pages/home/home';
   import { TabsPage } from '../pages/tabs/tabs';
   import { Login } from '../pages/login/login';
@@ -12,21 +12,26 @@
   import { Register} from '../pages/register/register';
   import { Leave } from '../pages/leave/leave';
   import { Leavelist } from '../pages/leavelist/leavelist';
+  import { Profile } from '../pages/profile/profile';
+  import { History } from '../pages/history/history';
+  import { Request } from '../pages/request/request';
+
   import { StatusBar } from '@ionic-native/status-bar';
   import { SplashScreen } from '@ionic-native/splash-screen';
 
   @NgModule({
     declarations: [
       MyApp,
-      AboutPage,
-      ContactPage,
       HomePage,
       TabsPage,
       Login,
       StampDetail,
       Register,
       Leave,
-      Leavelist
+      Leavelist,
+      Profile,
+      History,
+      Request
     ],
     imports: [
       BrowserModule,
@@ -36,15 +41,16 @@
     bootstrap: [IonicApp],
     entryComponents: [
       MyApp,
-      AboutPage,
-      ContactPage,
       HomePage,
       TabsPage,
       Login,
       StampDetail,
       Register,
       Leave,
-      Leavelist
+      Leavelist,
+      Profile,
+      History,
+      Request
     ],
     providers: [
       StatusBar,
